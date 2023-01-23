@@ -11,7 +11,7 @@ The XTEVE webui can be accessed via http://XIP:34400/web.
 ```
 version: '3'
 services:
-  xteve:
+  xmltvgrabber:
     container_name: xmltvgrabber
     image: ghcr.io/colino17/xmltvgrabber-docker:latest
     restart: unless-stopped
@@ -32,7 +32,7 @@ services:
       - ZXML2=zap2.xml
       - ZARG2=
       ### XTEVE API information
-      - XTEVE-true
+      - XTEVE=true
       - XIP=local ip address
       - XPORT=34400
       ### DUMMY XMLTV instance
