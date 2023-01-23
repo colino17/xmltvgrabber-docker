@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # DUMMY XMLTV
 if [ $DUMMY=true ]; then
