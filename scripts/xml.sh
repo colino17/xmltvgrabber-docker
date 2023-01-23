@@ -22,6 +22,7 @@ sleep 1
 fi
 
 # UPDATE XTEVE VIA API
+if [ $XTEVE=true ]; then
 echo "Updating XTEVE playlists and XMLTV..."
 curl -X POST -d '{"cmd":"update.m3u"}' http://$XIP:$XPORT/api/
 sleep 5
@@ -29,5 +30,6 @@ curl -X POST -d '{"cmd":"update.xmltv"}' http://$XIP:$XPORT/api/
 sleep 5
 curl -X POST -d '{"cmd":"update.xepg"}' http://$XIP:$XPORT/api/
 sleep 5
+fi
 
 exit
