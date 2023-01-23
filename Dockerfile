@@ -32,7 +32,6 @@ RUN mkdir /xmltv
 
 # DUMMY XMLTV
 ADD dummy /dummy
-ADD extras /
 
 # TIMEZONE
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
