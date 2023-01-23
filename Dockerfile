@@ -46,7 +46,8 @@ ADD crontab /
 RUN crontab crontab
 
 # PERMISSIONS
-RUN chmod +x /dummy/xml.sh
+RUN chmod +x /dummy/dummyxmltv.sh
+RUN chmod +x /scripts/xml.sh
 
 # CMD
 CMD ["crond", "-f"]
