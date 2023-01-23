@@ -11,9 +11,9 @@ ENV ZXML1=zap1.xml
 ENV ZXML2=zap2.xml
 ENV ZARG1=
 ENV ZARG2=
+ENV XTEVE=true
 ENV XIP=
 ENV XPORT=34400
-ENV USTV=true
 ENV DUMMY=false
 ENV TZ=Canada/Atlantic
 
