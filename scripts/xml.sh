@@ -12,12 +12,16 @@ if [ $Z1 = "true" ]; then
 echo "Retrieving XMLTV data for $ZUSER1..."
 /zap2xml.pl -u $ZUSER1 -p $ZPASS1 -U -o /xmltv/$ZXML1 $ZARG1
 sleep 1
+rm -R /scripts/cache
+sleep 1
 fi
 
 # ZAP2XML - SECONDARY INSTANCE
 if [ $Z2 = "true" ]; then
 echo "Retrieving XMLTV data for $ZUSER2..."
 /zap2xml.pl -u $ZUSER2 -p $ZPASS2 -U -o /xmltv/$ZXML2 $ZARG2
+sleep 1
+rm -R /scripts/cache
 sleep 1
 fi
 
