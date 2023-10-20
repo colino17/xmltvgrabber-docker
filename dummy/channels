@@ -1,4 +1,4 @@
-numberofchannels=16
+numberofchannels=20
 declare -a a0=("CBCNEWS" "CBCNEWS" "CBC News Live" "The latest news from across Canada and around the world.")
 declare -a a1=("CBSN" "CBSN" "CBS News Live" "The latest, breaking news headlines for national news and world news today.")
 declare -a a2=("MSNBC" "MSNBC" "ABC News Live" "Your trusted source for breaking news, analysis, exclusive interviews, and headlines.")
@@ -15,3 +15,7 @@ declare -a a12=("STADIUM" "STADIUM" "Stadium Sports" "Your source for sports new
 declare -a a13=("OLYMPICS" "OLYMPICS" "Olympic Games" "New and classic Olympic Games coverage.")
 declare -a a14=("FIREPLACE" "FIREPLACE" "Fireplace" "The warm glow of a cozy fireplace.")
 declare -a a15=("AQUARIUM" "AQUARIUM" "Aquarium" "Peaceful and tranquil aquarium coverage.")
+declare -a a16=("CTVNEWS" "CTVNEWS" "CTV News Live" "The latest news from across Canada and around the world.")
+declare -a a17=("FAILARMY" "FAILARMY" "Fail Army Live" "Celebrating failure 24/7.")
+declare -a a18=("PETCOLLECTIVE" "PETCOLLECTIVE" "Pet Collective Live" "The Pet Collective is home to the  funniest animal videos online.")
+declare -a a19=("WEATHERSPY" "WEATHERSPY" "Weatherspy Live" "A weather channel unlike any other. Explore our unpredictable planet through the exhilaration and impact of natural forces.")
