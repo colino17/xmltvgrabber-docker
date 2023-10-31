@@ -24,7 +24,6 @@ RUN apk add --no-cache ca-certificates coreutils shadow gnutls-utils curl bash b
 
 # ZAP2XML
 RUN apk add --no-cache perl perl-html-parser perl-http-cookies perl-lwp-useragent-determined perl-json perl-json-xs perl-lwp-protocol-https perl-uri ca-certificates perl-net-libidn perl-net-ssleay perl-io-socket-ssl perl-libwww perl-mozilla-ca perl-net-http
-
 ADD zap2xml.pl /
 RUN mkdir /xmltv
 
