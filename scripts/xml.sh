@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# REMOVE CACHE
+rm -R cache
+sleep 1
+
 # DUMMY XMLTV
 if [ $DUMMY = "true" ]; then
 echo "Creating DUMMY XMLTV data..."
@@ -12,7 +16,7 @@ if [ $Z1 = "true" ]; then
 echo "Retrieving XMLTV data for $ZUSER1..."
 /zap2xml.pl -u $ZUSER1 -p $ZPASS1 -U -o /xmltv/$ZXML1 $ZARG1
 sleep 1
-rm -R /scripts/cache
+rm -R /cache
 sleep 1
 fi
 
@@ -21,7 +25,7 @@ if [ $Z2 = "true" ]; then
 echo "Retrieving XMLTV data for $ZUSER2..."
 /zap2xml.pl -u $ZUSER2 -p $ZPASS2 -U -o /xmltv/$ZXML2 $ZARG2
 sleep 1
-rm -R /scripts/cache
+rm -R /cache
 sleep 1
 fi
 
