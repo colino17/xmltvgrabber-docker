@@ -1,3 +1,8 @@
+# NOTICE
+
+It appears that the Zap2It site and service have been killed by the site owner, therefore this container no longer works as it has nothing to query anymore. I'm going to have to look for alternatives when I have the time.
+
+
 # WHAT IS IT?
 
 A docker container which allows for two separate instances of ZAP2XML using environment variables. There is also a dummy xmltv generator.
