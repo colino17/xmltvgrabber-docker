@@ -7,7 +7,7 @@ The chosen services are run every eight hours as part of a cronjob.
 # COMPOSE
 
 ```
-version: '3'
+
 services:
   xmltvgrabber:
     container_name: xmltvgrabber
@@ -16,6 +16,8 @@ services:
     volumes:
       - /path/to/xmltv:/xmltv
       - /path/to/extras:/extras
+    environment:
+      - TZ=Canada/Atlantic
 ```
 
 # CREDITS AND SOURCES
