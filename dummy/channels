@@ -1,4 +1,4 @@
-numberofchannels=31
+numberofchannels=35
 declare -a a0=("CBCNEWS" "CBCNEWS" "CBC News Live" "The latest news from across Canada and around the world.")
 declare -a a1=("CBSN" "CBSN" "CBS News Live" "The latest, breaking news headlines for national news and world news today.")
 declare -a a2=("MSNBC" "MSNBC" "ABC News Live" "Your trusted source for breaking news, analysis, exclusive interviews, and headlines.")
@@ -30,3 +30,7 @@ declare -a a27=("PIRATEWEATHER" "PIRATEWEATHER" "Pirate Weather Network Live" "T
 declare -a a28=("NHL" "NHL" "NHL Network Live" "The latest news from around the NHL.")
 declare -a a29=("LEAFSTV" "LEAFSTV" "LEAFSTV Live" "Home of the Toronto Maple Leafs.")
 declare -a a30=("HABSTV" "HABSTV" "HABSTV Live" "Home of the Montreal Canadiens.")
+declare -a a31=("JAYSTV" "JAYSTV" "JAYSTV Live" "Home of the Toronto Blue Jays.")
+declare -a a32=("RAPTORSTV" "RAPTORSTV" "RAPTORSTV Live" "Home of the Toronto Raptors.")
+declare -a a33=("TEMPOTV" "TEMPOTV" "TEMPOTV Live" "Home of the Toronto Tempo.")
+declare -a a34=("FEVERTV" "FEVERTV" "FEVERTV Live" "Home of the Indiana Fever.")
