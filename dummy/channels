@@ -1,4 +1,4 @@
-numberofchannels=27
+numberofchannels=29
 declare -a a0=("CBCNEWS" "CBCNEWS" "CBC News Live" "The latest news from across Canada and around the world.")
 declare -a a1=("CBSN" "CBSN" "CBS News Live" "The latest, breaking news headlines for national news and world news today.")
 declare -a a2=("MSNBC" "MSNBC" "ABC News Live" "Your trusted source for breaking news, analysis, exclusive interviews, and headlines.")
@@ -26,3 +26,5 @@ declare -a a23=("TASTEMADE" "TASTEMADE" "Tastemade Food and Cooking" "The best r
 declare -a a24=("TRAVEL" "TRAVEL" "Travel TV" "Experience the world with Travel TV!")
 declare -a a25=("NINJA" "NINJA" "American Ninja Warrior" "Watch competitors race against the clock to become the next American Ninja Warrior!")
 declare -a a26=("UFC" "UFC" "UFC Live" "Watch the world's greatest fighters battle it out in the octagon!")
+declare -a a27=("PIRATEWEATHER" "PIRATEWEATHER" "Pirate Weather Network Live" "The latest local and national weather forecasts.")
+declare -a a28=("NHL" "NHL" "NHL Network Live" "The latest news from around the NHL.")
